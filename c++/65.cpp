@@ -66,10 +66,9 @@ int main(int argc, char **argv) {
   Solution solution;
 
   if (argc != 2) {
-    printf("bin/65 x");
+    printf("bin/65 s");
     return 1;
   }
-
 
   cout << solution.isNumber(argv[1]) << endl;
 
